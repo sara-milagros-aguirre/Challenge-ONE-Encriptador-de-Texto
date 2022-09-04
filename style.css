@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+body {
+    background: -webkit-linear-gradient(to bottom,
+            #191654,
+            #43c6ac);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,
+            #191654,
+            #43c6ac);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    height: 10%;
+    display: flex;
+    padding: 5px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    width: 930px;
+    margin: 0 auto;
+    height: 490px;
+}
+
+.columnaIzquierda {
+    position: relative;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 10px;
+    width: 60%;
+}
+
+textarea {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    border: none;
+    resize: none;
+    background: none;
+    box-shadow: 0px 24px 32px -8px rgba(0, 1, 15, 0.08);
+    width: 100%;
+    height: 75%;
+}
+
+textarea:focus-visible {
+    outline: none;
+}
+
+.input-texto {
+    color: white;
+    margin-top: 2%;
+    width: 95%;
+    height: 300px;
+}
+
+#advertencia {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+button:hover {
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    background-color: #090074;
+    box-shadow: 0px 10px 32px -8px rgb(123, 221, 144);
+}
+
+button:active {
+    border-color: white;
+}
+
+.encriptar,
+.desencriptar {
+    background-color: #0681b1b9;
+    color: white;
+    position: relative;
+    padding: 15px;
+    width: 35%;
+    border-radius: 24px;
+    margin-left: 24px;
+    transition: 3s all;
+    cursor: pointer;
+}
+
+.columnaDerecha {
+    background: hsla(165, 32%, 93%, 1);
+    background: radial-gradient(circle,
+            hsla(165, 32%, 93%, 1) 75%,
+            hsla(166, 52%, 90%, 1) 100%);
+    background: -moz-radial-gradient(circle,
+            hsla(165, 32%, 93%, 1) 75%,
+            hsla(166, 52%, 90%, 1) 100%);
+    background: -webkit-radial-gradient(circle,
+            hsla(165, 32%, 93%, 1) 75%,
+            hsla(166, 52%, 90%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E6F2EF", endColorstr="#D9F3ED", GradientType=1);
+    box-shadow: 0px 24px 32px -8px rgb(123, 210, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: 53px;
+    padding: 15px;
+    width: 35%;
+    height: 530px;
+    border-radius: 20px;
+}
+
+.solicitudMensaje {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+#ningunMensaje {
+    margin-top: 320px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.copiar {
+    background-color: #0681b1b9;
+    color: white;
+    position: relative;
+    padding: 15px;
+    width: 50%;
+    border-radius: 24px;
+    margin-left: 25%;
+    transition: 3s all;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 14px;
+    font-style: italic;
+    box-shadow: 0px 14px 32px -3px black;
+    background: rgba(26, 100, 89, 0.08);
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 605px;
+    padding: 1px;
+    bottom: 7px;
+}
+
+.contacto img:hover {
+    border-radius: 25px;
+    background-color: #67d6c4;
+    box-shadow: 0px 10px 32px -8px rgb(123, 221, 144);
+    transform: scale(1.3) rotate(360deg);
+    transition: 2s all;
+}
