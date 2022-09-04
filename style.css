@@ -36,7 +36,6 @@ main {
     display: flex;
     padding: 5px;
     justify-content: space-between;
-    /* Arriba | Derecha | Abajo | Izquierda */
     width: 930px;
     margin: 0 auto;
     height: 490px;
