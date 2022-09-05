@@ -138,7 +138,7 @@ button:active {
 .solicitudMensaje {
     display: flex;
     flex-direction: column;
-    background-image: url(/Imagenes/Muñeco.png);
+    background-image: url(Imagenes/Muñeco.png);
     background-repeat: no-repeat;
     text-align: center;
     width: 100%;
